@@ -1,0 +1,48 @@
+#anima-div{
+    text-align: center;
+    width: 90px;
+    height: 80px;
+    position: relative;
+    animation:  mov-div  20s infinite;
+}
+
+td{
+    height: 87px;
+    width: 90px;
+}
+
+@keyframes mov-div{
+    0%{top:0px; left:0px;}
+    4%{top: 110px; left:0px;}
+    8%{top: 210px; left:0px;}
+    12%{top: 210px; left:130px;}
+    16%{top: 210px; left:260px;}
+    20%{top: 210px; left:380px;}
+    24%{top: 310px; left:380px;}
+    28%{top: 410px; left:380px;}
+    32%{top: 510px; left:380px;}
+    36%{top: 510px; left:500px;}
+    40%{top: 615px; left:500px;}
+    44%{top: 715px; left:500px;}
+    48%{top: 715px; left:630px;}
+    52%{top: 715px; left:630px;}
+    56%{top: 715px; left:500px;}
+    60%{top: 615px; left:500px;}
+    64%{top: 510px; left:500px;}
+    68%{top: 510px; left:380px;}
+    72%{top: 410px; left:380px;}
+    76%{top: 310px; left:380px;}
+    80%{top: 210px; left:380px;}
+    84%{top: 210px; left:260px;}
+    88%{top: 210px; left:130px;}
+    92%{top: 210px; left:0px;}
+    96%{top: 110px; left:0px;}
+    100%{top:0px; left:0px;}
+}
+
+.tabu{
+    text-align: right;
+    top: -650px;
+    left: 8px;
+    position: relative;
+}
